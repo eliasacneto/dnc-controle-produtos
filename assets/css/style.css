@@ -1,0 +1,112 @@
+body{
+  background-color: rgb(48, 48, 48);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 33vw;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+section{
+  padding: 30px 50px;
+}
+
+input{
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.subtitle{
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.title-header{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.card{
+background-color: aliceblue;
+border: 1px solid #ccc;
+padding: 20px;
+margin-top: 15px;
+border-radius: 30px;
+}
+
+
+
+.rounded-bg button{ 
+  margin-left: 20px;
+}
+
+button{
+  background-color: #303030;
+  padding: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+button:hover{
+  background-color: black;
+}
+
+#bg-white{
+  background-color: white;
+  padding: 0px, 40px 10px 40px;
+  margin-bottom: 20px;
+}
+
+
+.h1-title{
+  margin-bottom: 0px;
+}
+
+.space-align{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.table-items{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+table{
+  margin-top: 20px;
+  width: 1000%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+
+}
+
+table th{
+  background-color: #2E3131;
+  color: white;
+}
+
+table td{
+  text-align: center;
+}
+
+.inputpd{
+  display: grid;
+  margin-bottom: 10px;
+  
+}
