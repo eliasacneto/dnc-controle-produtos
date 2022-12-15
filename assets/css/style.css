@@ -93,16 +93,21 @@ table{
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 50px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
 
 }
 
 table th{
   background-color: #2E3131;
   color: white;
+  padding: 1px;
 }
 
 table td{
   text-align: center;
+  padding: 1px;
+  border: 1px solid #ccc;
 }
 
 .inputpd{
