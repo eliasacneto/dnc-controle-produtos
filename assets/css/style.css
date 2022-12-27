@@ -115,3 +115,7 @@ table td{
   margin-bottom: 10px;
   
 }
+
+table td img{
+  height: 24px;
+}
